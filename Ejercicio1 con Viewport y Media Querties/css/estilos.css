@@ -31,15 +31,15 @@ body {
   }
   
   a {
-  color: #890101;
-  text-decoration: none;
+  color: green;
+  text-decoration: underline;
   -moz-transition: 0.2s color linear;
   -webkit-transition: 0.2s color linear;
   transition: 0.2s color linear;
   }
   
   a:hover{
-  color: #DF3030;}
+  color: navy;}
   
   #page {
         background: url("../img/rag.png") repeat-x;
@@ -59,7 +59,7 @@ body {
 	}
 	
 	.mast {
-	float: left;
+	float: right;
 	width: 31.875%;}
 	
 	h1 {
@@ -75,7 +75,7 @@ body {
 	.intro,
 	.main,
 	.footer {
-	      float: right;
+	      float: left;
 		  width: 65.9375%;}
 		  
 	.intro {
